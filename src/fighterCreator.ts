@@ -1,6 +1,6 @@
 import {Fighter} from './fighter';
 
-export abstract class FighterCreator {
+export default abstract class FighterCreator {
   public abstract factoryMethod(): Fighter;
 
   public logic(): string {
