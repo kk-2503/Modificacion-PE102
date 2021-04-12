@@ -1,7 +1,6 @@
-import { FighterCreator } from "./fighterCreator";
-
 import Creator from './fighterCreator';
 import {BasicStats, Fighter} from './fighter';
+import {Pokemon} from './pokemon';
 
 export class PokemonCreator extends Creator {
   /**
