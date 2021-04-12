@@ -7,7 +7,7 @@ export type BasicStats = {
 /**
  * General interface to define a pokemon
  */
-export interface Pokedex {
+export interface Fighter {
   name: string;
   weight: number;
   height: number;
